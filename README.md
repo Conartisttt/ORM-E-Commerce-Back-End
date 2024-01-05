@@ -2,9 +2,9 @@
 
 TODOS:
 * Use .env file to use environmental variables to connect with db using sequelize - DONE
-* 
-* 
-* 
+* Create Models - DONE
+* Create Model Associations - DONE
+* Fill in unfinished routes to perform crud operations
 * 
 * 
 * 
