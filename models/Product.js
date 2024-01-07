@@ -43,8 +43,11 @@ Product.init(
     }
   },
   {
-    sequelize,
+    // Link to database connection
+    sequelize: sequelize,
+    // Set to false to remove `created_at` and `updated_at` fields
     timestamps: false,
+    // Set true so that modelName is not pluralized automatically
     freezeTableName: true,
     underscored: true,
     modelName: 'product',
