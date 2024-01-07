@@ -1,20 +1,14 @@
 # ORM-E-Commerce-Back-End
 
 TODOS:
-* Use .env file to use environmental variables to connect with db using sequelize - DONE
-* Create Models - DONE
-* Create Model Associations - DONE
-* Seed database - DONE
-* Fill in unfinished routes to perform crud operations: post, put, delete
-* 
-* 
-* 
+* Finalize README
+* Record Video of App and Add to README
+- run schema
+- seed db
+- start app
+- demonstrate all routes in insomnia
 * 
 
-
-
-
-EXAMPLE:
 ## Table of Contents
 
 [Description](#description)
@@ -29,28 +23,9 @@ EXAMPLE:
 
 ## Description
 
-The purpose of the application is to allow
+The purpose of the application is to serve as a back end for an e-commerce website. This application can be used to create and seed a development database with test data, and then utilizes API GET, POST, PUT, and DELETE routes to successfully retreive, create, update, and delete data in the database. All of this functionality can be tested using Insomnia.
 
 The following video demonstrates the applications functionality: [E-Commerce Back End](insert google drive link here)
-
-The following screenshots demonstrates the applications functionality: 
-<br>
-Options Menu:
-<br>
-![Inquirer Options](./assets/selectMenu.png)
-<br>
-View Departments:
-<br>
-![Output for view departments](./assets/viewDepartments.png)
-<br>
-View Roles:
-<br>
-![Output for view roles](./assets/viewRoles.png)
-<br>
-View Employees:
-<br>
-![Output for view employees](./assets/viewEmployees.png)
-<br>
 
 ## Technologies Used
 
@@ -69,11 +44,13 @@ View Employees:
 ## Usage
 * Create the employee database by opening terminal running the schema.sql file using command:
 ```mysql -uroot < db/schema.sql```
-* Seed the database by opening terminal running the seeds.sql files using command:
-```mysql -uroot < db/seeds.sql```
+* Seed the database by opening terminal running the seeds/index.js file using command:
+```node seeds/```
 * Run the application by opening terminal and using command: 
-```node index.js```
+```node server.js```
+* All routes can be tested using Insomnia
 
 ## Credits
 
-* Application written by Conner Martin aka Conartisttt
+* Starter code provided by edX Boot Camps LLC.
+* All updates made by Conner Martin aka Conartisttt
