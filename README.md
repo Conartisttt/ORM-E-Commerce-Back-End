@@ -52,10 +52,13 @@ DB_PASSWORD=```'db_password || ""'```
 
 Product Routes:
 * Get all products: GET: http://localhost:3001/api/products
-* Get a product by ID: GET: http://localhost:3001/api/products/```id```
+* Get a product by ID: GET: http://localhost:3001/api/products/
+```id```
 * Add a new product: POST: http://localhost:3001/api/products
 <br>
 POST example:
+<br>
+
 ```
 {
 	"product_name": "Basketball",
@@ -65,10 +68,14 @@ POST example:
 }
 ```
 
-* Update a product by ID: PUT: http://localhost:3001/api/products/```id```
+<br>
+
+* Update a product by ID: PUT: http://localhost:3001/api/products/
+```id```
 <br>
 PUT example:
 <br>
+
 ```
 {
 	"product_name": "Soccer",
@@ -77,63 +84,79 @@ PUT example:
 	"tagIds": [1, 4]
 }
 ```
+
 <br>
 
-* Delete a product by ID: DELETE: http://localhost:3001/api/products/```id```
+* Delete a product by ID: DELETE: http://localhost:3001/api/products/
+```id```
 
 Tag Routes:
 * Get all tags: GET: http://localhost:3001/api/tags
-* Get a tag by ID: GET: http://localhost:3001/api/tags/```id```
+* Get a tag by ID: GET: http://localhost:3001/api/tags/
+```id```
 * Add a new tag: POST: http://localhost:3001/api/tags
 <br>
 POST example:
 <br>
+
 ```
 {
 	"tag_name": "silver",
 }
 ```
+
 <br>
 
-* Update a tag by ID: PUT: http://localhost:3001/api/tags/```id```
+* Update a tag by ID: PUT: http://localhost:3001/api/tags/
+```id```
 <br>
 PUT example:
 <br>
+
 ```
 {
 	"tag_name": "platnum",
 }
 ```
+
 <br>
 
-* Delete a tag by ID: DELETE: http://localhost:3001/api/tags/```id```
+* Delete a tag by ID: DELETE: http://localhost:3001/api/tags/
+```id```
 
 Category Routes:
 * Get all categories: GET: http://localhost:3001/api/categories
-* Get a category by ID: GET: http://localhost:3001/api/categories/```id```
+* Get a category by ID: GET: http://localhost:3001/api/categories/
+```id```
 * Add a new category: POST: http://localhost:3001/api/categories
 <br>
 POST example:
 <br>
+
 ```
 {
 	"category_name": "Underwear",
 }
 ```
+
 <br>
 
-* Update a category by ID: PUT: http://localhost:3001/api/categories/```id```
+* Update a category by ID: PUT: http://localhost:3001/api/categories/
+```id```
 <br>
 PUT example:
 <br>
+
 ```
 {
 	"category_name": "Undergarments",
 }
 ```
+
 <br>
 
-* Delete a category by ID: DELETE: http://localhost:3001/api/categories/```id```
+* Delete a category by ID: DELETE: http://localhost:3001/api/categories/
+```id```
  
 
 ## Credits
