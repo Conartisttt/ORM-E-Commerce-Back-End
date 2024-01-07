@@ -64,6 +64,7 @@ POST example:
 	"tagIds": [1, 2, 3, 4]
 }
 ```
+
 * Update a product by ID: PUT: http://localhost:3001/api/products/```id```
 <br>
 PUT example:
