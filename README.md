@@ -68,6 +68,7 @@ POST example:
 * Update a product by ID: PUT: http://localhost:3001/api/products/```id```
 <br>
 PUT example:
+<br>
 ```
 {
 	"product_name": "Soccer",
@@ -76,6 +77,7 @@ PUT example:
 	"tagIds": [1, 4]
 }
 ```
+<br>
 
 * Delete a product by ID: DELETE: http://localhost:3001/api/products/```id```
 
@@ -85,20 +87,24 @@ Tag Routes:
 * Add a new tag: POST: http://localhost:3001/api/tags
 <br>
 POST example:
+<br>
 ```
 {
 	"tag_name": "silver",
 }
 ```
+<br>
 
 * Update a tag by ID: PUT: http://localhost:3001/api/tags/```id```
 <br>
 PUT example:
+<br>
 ```
 {
 	"tag_name": "platnum",
 }
 ```
+<br>
 
 * Delete a tag by ID: DELETE: http://localhost:3001/api/tags/```id```
 
@@ -108,11 +114,13 @@ Category Routes:
 * Add a new category: POST: http://localhost:3001/api/categories
 <br>
 POST example:
+<br>
 ```
 {
 	"category_name": "Underwear",
 }
 ```
+<br>
 
 * Update a category by ID: PUT: http://localhost:3001/api/categories/```id```
 <br>
@@ -123,6 +131,7 @@ PUT example:
 	"category_name": "Undergarments",
 }
 ```
+<br>
 
 * Delete a category by ID: DELETE: http://localhost:3001/api/categories/```id```
  
