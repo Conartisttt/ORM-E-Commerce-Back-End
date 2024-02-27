@@ -17,6 +17,8 @@
 The purpose of the application is to serve as a back end for an e-commerce website. This application can be used to create and seed a development database with test data, and then utilizes API GET, POST, PUT, and DELETE routes to successfully retreive, create, update, and delete data in the database. All of this functionality can be tested using Insomnia.
 
 The following video demonstrates the applications functionality: [E-Commerce Back End](https://drive.google.com/file/d/1IyE_cloTKOmbOtA8Ht0EUULrbMbo0T9x/view)
+[Uploading E-Commerce Back End.webm…]()
+
 
 ## Technologies Used
 
