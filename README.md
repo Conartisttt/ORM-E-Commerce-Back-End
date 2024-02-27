@@ -17,8 +17,24 @@
 The purpose of the application is to serve as a back end for an e-commerce website. This application can be used to create and seed a development database with test data, and then utilizes API GET, POST, PUT, and DELETE routes to successfully retreive, create, update, and delete data in the database. All of this functionality can be tested using Insomnia.
 
 The following video demonstrates the applications functionality: [E-Commerce Back End](https://drive.google.com/file/d/1IyE_cloTKOmbOtA8Ht0EUULrbMbo0T9x/view)
-[E-Commerce Back End.webm](https://github.com/Conartisttt/ORM-E-Commerce-Back-End/assets/128312881/e0471b7b-bebf-4ad2-bfdb-200ed85912a9)
 
+The following screenshots show some of the applications routes:
+<br>
+Routes Setup:
+<br>
+![routes setup](./assets/routes-setup.png)
+<br>
+Category Routes:
+<br>
+![category routes](./assets/category-routes.png)
+<br>
+Product Routes:
+<br>
+![product routes](./assets/product-routes.png)
+<br>
+Tag Routes:
+<br>
+![tag routes](./assets/tag-routes.png)
 
 ## Technologies Used
 
